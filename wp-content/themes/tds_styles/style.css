@@ -1,0 +1,26 @@
+/* override fonts */
+@import "override_fonts.css";
+
+/* override colors */
+@import "override_colors.css";
+
+/* CSS styles */
+
+body, p, small, input, a, span, ul, li {
+    font-family: 'FF_DIN_Regular' !important;
+    color: #565651 !important;
+}
+
+h1, h2, h3, h4, h5, h6, h7 label {
+    font-family: 'FF_DIN_Medium' !important;
+    color: #565651 !important;
+}
+
+.zoom-icon:after,
+.posts-grid.posts-home li .thumbnail .thumb-desc:after {
+    background-color: #d4af37 !important;
+}
+
+.posts-grid.posts-home li {
+    width: 33% !important;
+}

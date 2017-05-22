@@ -1,0 +1,12 @@
+/* override fonts */
+
+@font-face { font-family: 'FF_DIN_Black'; src: url('fonts/FF_DIN_Black.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Bold'; src: url('fonts/FF_DIN_Bold.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Bold_Italic'; src: url('fonts/FF_DIN_Bold_Italic.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Light'; src: url('fonts/FF_DIN_Light.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Medium'; src: url('fonts/FF_DIN_Medium.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Regular'; src: url('fonts/FF_DIN_Regular.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Regular_Italic'; src: url('fonts/FF_DIN_Regular_Italic.otf') format('opentype'); }
+@font-face { font-family: 'FF_DIN_Regular_Italic_Expert'; src: url('fonts/FF_DIN_Regular_Italic_Expert.otf') format('opentype'); }
+@font-face { font-family: 'MGS2'; src: url('fonts/MGS2.ttf') format('truetype'); }
+@font-face { font-family: 'MGS2MENU'; src: url('fonts/MGS2MENU.ttf') format('truetype'); }
