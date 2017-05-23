@@ -1,7 +1,7 @@
 /* override colors */
 
 .main-holder textarea:focus, .main-holder input[type="text"]:focus, .main-holder input[type="password"]:focus, .main-holder input[type="number"]:focus, .main-holder input[type="email"]:focus, .main-holder input[type="url"]:focus, .main-holder input[type="search"]:focus, .main-holder input[type="tel"]:focus, .main-holder .uneditable-input:focus {
-    background:#fff;
+    background:#fff !important;
     color:#474747;
     border-color:#85b719 !important;
 }
@@ -9,29 +9,29 @@
 div.wpcf7 .wpcf7-form textarea:focus { border-color:#85b719 !important; }
 
 .btn, .reply a.comment-reply-link {
-    background:#85b719;
-    color:#fff;
+    background:#85b719 !important;
+    color:#fff !important;
 }
 
 .btn:hover, .btn:active, .btn:focus, .reply a.comment-reply-link:hover, .reply a.comment-reply-link:active, .reply a.comment-reply-link:focus {
-    background:#85b719;
-    color:#fff;
+    background:#85b719 !important;
+    color:#fff !important;
 }
 
 .nav__primary .sf-menu > .menu-item:after {
-    background:#85b719;
+    background:#85b719 !important;
 }
 
-.nav__primary .sf-menu > .menu-item.current-menu-item > a { color:#85b719; }
+.nav__primary .sf-menu > .menu-item.current-menu-item > a { color:#85b719 !important; }
 
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > a:hover, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > a:active, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > a:focus {
-    color:#fff;
-    background:#85b719;
+    color:#fff !important;
+    background:#85b719 !important;
 }
 
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item.current-menu-item > a, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item.sfHover > a {
-    color:#fff;
-    background:#85b719;
+    color:#fff !important;
+    background:#85b719 !important;
 }
 
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item:first-child:before {
@@ -39,16 +39,16 @@ div.wpcf7 .wpcf7-form textarea:focus { border-color:#85b719 !important; }
 }
 
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item > a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item > a:hover, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item > a:active, .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item > a:focus {
-    color:#85b719;
+    color:#85b719 !important;
     background:#f0f0f0;
 }
 
 .nav__primary .sf-menu > .menu-item > .sub-menu > .menu-item > .sub-menu .menu-item.current-menu-item > a {
-    color:#85b719;
+    color:#85b719 !important;
     background:#f0f0f0;
 }
 
@@ -58,151 +58,151 @@ div.wpcf7 .wpcf7-form textarea:focus { border-color:#85b719 !important; }
 }
 
 .social-wrap .social li a span {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .social-wrap .social li a:hover i {
-    background:#85b719;
-    color:#fff;
+    background:#85b719 !important;
+    color:#fff !important;
 }
 
 .title-section .breadcrumb a:hover, .title-section .breadcrumb a:active {
-    color:#85b719;
-    border-color:#85b719;
+    color:#85b719 !important;
+    border-color:#85b719 !important;
 }
 
-article.post__holder .post-header .post-title a:hover { color:#85b719; }
+article.post__holder .post-header .post-title a:hover { color:#85b719 !important; }
 
 article.testimonial .testimonial_content small a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-.post-author .post-author_h a:hover { color:#85b719; }
+.post-author .post-author_h a:hover { color:#85b719 !important; }
 
 .post-author .post-author_desc .post-author_link a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .single .post_meta.meta_type_line i, .blog .post_meta.meta_type_line i {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .single .post_meta.meta_type_line .post_author a, .blog .post_meta.meta_type_line .post_author a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 .single .post_meta.meta_type_line .post_category a, .single .post_meta.meta_type_line .post_tag a, .single .post_meta.meta_type_line .post_tag, .blog .post_meta.meta_type_line .post_category a, .blog .post_meta.meta_type_line .post_tag a, .blog .post_meta.meta_type_line .post_tag {
-    color:#85b719;
+    color:#85b719 !important;
 }
 .single .post_meta.meta_type_line .post_comment a, .blog .post_meta.meta_type_line .post_comment a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 .single .post_meta.meta_type_line .user_like, .single .post_meta.meta_type_line .post_views, .blog .post_meta.meta_type_line .user_like, .blog .post_meta.meta_type_line .post_views {
-    color:#85b719;
+    color:#85b719 !important;
 }
 .single .post_meta.meta_type_line .post_permalink a, .blog .post_meta.meta_type_line .post_permalink a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .filter-wrapper strong {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .filter-wrapper .filter li a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .filter-wrapper .filter li a:hover, .filter-wrapper .filter li a:active, .filter-wrapper .filter li a:focus {
-    color:#85b719;
-    border-color:#85b719;
+    color:#85b719 !important;
+    border-color:#85b719 !important;
 }
 
 .filter-wrapper .filter .active a {
     color:#474747;
-    border-color:#85b719;
+    border-color:#85b719 !important;
 }
 
 .filterable-portfolio li.portfolio_item .portfolio_item_holder .caption h3 a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .portfolio-meta span a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .content-portfolio .portfolioUrl a {
-    background:#85b719;
+    background:#85b719 !important;
 }
 
 .related-posts .related-posts_item > a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 .related-posts .related-posts_item > a:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="categories"] ul li, [id*="archives"] ul li, .list.custom-list ul li {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="categories"] ul li a:hover, [id*="archives"] ul li a:hover, .list.custom-list ul li a:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="categories"] ul li a:hover, [id*="archives"] ul li a:hover, .list.custom-list ul li a:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-[id*="my_poststypewidget"] .post-list li .post-list_h a { color:#85b719; }
+[id*="my_poststypewidget"] .post-list li .post-list_h a { color:#85b719 !important; }
 [id*="my_poststypewidget"] .post-list li .post-list_h a:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="my_poststypewidget"] .post-list li .btn {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="my_poststypewidget"] .post-list li .btn:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="my-recent-comments"] .comments-custom .comments-custom_li i {
-    color:#85b719;
+    color:#85b719 !important;
 }
 [id*="my-recent-comments"] .comments-custom .comments-custom_li time {
-    color:#85b719;
+    color:#85b719 !important;
 }
 [id*="my-recent-comments"] .comments-custom .comments-custom_li .comments-custom_h_author {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-[id*="my-recent-comments"] .comments-custom .comments-custom_li .comments-custom_h_title a { color:#85b719; }
+[id*="my-recent-comments"] .comments-custom .comments-custom_li .comments-custom_h_title a { color:#85b719 !important; }
 
-[id*="my-recent-comments"] .comments-custom .comments-custom_li .comments-custom_txt a { color:#85b719; }
+[id*="my-recent-comments"] .comments-custom .comments-custom_li .comments-custom_txt a { color:#85b719 !important; }
 
 #wp-calendar caption, #wp-calendar thead tr th {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .search-form form.focused {
-    border-color:#85b719;
+    border-color:#85b719 !important;
 }
 
 .search-form .search-form_is:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="nav_menu"] ul li a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 [id*="nav_menu"] ul li a:hover, [id*="nav_menu"] ul li a:active {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-.textwidget a:hover { color:#85b719; }
+.textwidget a:hover { color:#85b719 !important; }
 
 @media only screen and (max-width: 767px) {
-    .posts-grid.services { background:#85b719; }
+    .posts-grid.services { background:#85b719 !important; }
 }
 
 .posts-grid.services li:nth-child(even) .desc:before {
@@ -210,7 +210,7 @@ article.testimonial .testimonial_content small a {
 }
 
 .posts-grid.services li .desc {
-    background:#85b719;
+    background:#85b719 !important;
 }
 
 .posts-grid.services li .desc:before {
@@ -218,81 +218,81 @@ article.testimonial .testimonial_content small a {
 }
 
 .posts-grid.services li .desc .btn {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-.posts-grid.our-team li .desc h5 a:hover { color:#85b719; }
+.posts-grid.our-team li .desc h5 a:hover { color:#85b719 !important; }
 
 .posts-grid.posts-home li .desc .post_meta .category_icon i {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-.posts-grid.projects li .desc h5 a { color:#85b719; }
+.posts-grid.projects li .desc h5 a { color:#85b719 !important; }
 
 .banner-wrap .desc {
-    background:#85b719;
+    background:#85b719 !important;
 }
 
 .service-box .icon i {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .service-box .service-box_body .title a:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .service-box.features .title {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 @media only screen and (min-width: 1200px) {
     .service-box.rotate:hover .icon i {
-        color:#85b719;
+        color:#85b719 !important;
     }
     .service-box.scale:hover .icon i {
-        color:#85b719;
+        color:#85b719 !important;
     }
 }
 
 .circle-container.count .desc div {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 address p a {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-address p a:hover { color:#85b719; }
+address p a:hover { color:#85b719 !important; }
 
 .mc4wp-form form input[type="submit"] {
     color: #fff !important;
     background: #85b719 !important;
 }
 
-.flexslider.faq-posts .flex-viewport .slides li h5 a:hover { color:#85b719; }
+.flexslider.faq-posts .flex-viewport .slides li h5 a:hover { color:#85b719 !important; }
 
-.flexslider.faq-posts .flex-viewport .slides li .meta a { color:#85b719; }
+.flexslider.faq-posts .flex-viewport .slides li .meta a { color:#85b719 !important; }
 
 .flexslider.faq-posts .flex-direction-nav li a:before {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 .flexslider.testi-home .flex-viewport .slides li .desc .post_options .user {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
-.flexslider.testi-home .flex-direction-nav li a:hover:before { color:#85b719; }
+.flexslider.testi-home .flex-direction-nav li a:hover:before { color:#85b719 !important; }
 
 nav.nav.footer-nav ul li.current-menu-item a, nav.nav.footer-nav ul li a:hover {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 #back-top-wrapper #back-top a span {
-    background:#85b719;
+    background:#85b719 !important;
 }
 
 .faq-list h4.marker {
-    color:#85b719;
+    color:#85b719 !important;
 }
 
 #back-top-wrapper #back-top a span {
@@ -326,4 +326,34 @@ nav.nav.footer-nav ul li.current-menu-item a, nav.nav.footer-nav ul li a:hover {
 .flexslider.testi-home .flex-viewport .slides li .desc .post_options span,
 .primaryCaption h2 {
     color: #fff !important;
+}
+
+.content-portfolio .portfolioUrl a:hover, .content-portfolio .portfolioUrl a:active, .content-portfolio .portfolioUrl a:focus,
+.portfolioUrl a {
+    color: #fff !important;
+}
+
+.pager li a {
+    background-color: #85b719 !important;
+    color: #fff !important;
+}
+
+.related-posts .related-posts_item {
+    color: #fff !important;
+}
+
+.input-btn input {
+    color: #fff !important;
+}
+
+.input-btn input[type="submit"], .input-btn input[type="reset"] {
+    background-color: #85b719 !important;
+}
+
+.btn:hover, .btn:active, .btn:focus, .reply a.comment-reply-link:hover, .reply a.comment-reply-link:active, .reply a.comment-reply-link:focus {
+    background: #85b719 !important;
+}
+
+.btn:after, .reply a.comment-reply-link:after {
+    background: #85b719 !important;
 }

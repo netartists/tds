@@ -13,7 +13,4 @@
 	<?php } else { ?>
 		<p class="desc">&copy; <?php echo date('Y'); ?>. <span><a href="<?php echo home_url(); ?>/privacy-policy/" title="<?php echo theme_locals('privacy_policy'); ?>"><?php echo theme_locals("privacy_policy"); ?></a></span></p>
 	<?php } ?>
-	<?php if( is_front_page() ) { ?>
-		More Financial Advisor WordPress Themes at <a rel="nofollow" href="http://www.templatemonster.com/category/financial-advisor-wordpress-themes/" target="_blank">TemplateMonster.com</a>
-	<?php } ?>
 </div>

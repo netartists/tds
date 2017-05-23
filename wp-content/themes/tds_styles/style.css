@@ -8,6 +8,7 @@
 
 body, p, small, input, a, span, ul, li {
     font-family: 'FF_DIN_Regular' !important;
+    font-size: 16px;
     color: #565651 !important;
 }
 
@@ -24,3 +25,45 @@ h1, h2, h3, h4, h5, h6, h7 label {
 .posts-grid.posts-home li {
     width: 33% !important;
 }
+
+.post_category {
+    display: none !important;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"] {
+    width: 50%;
+    background-color: #fbfbfb !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .wpcf7-form input[type="text"],
+    .wpcf7-form input[type="email"] {
+        width: 100%;
+    }
+}
+
+.wpcf7-form textarea {
+    background-color: #fbfbfb !important;
+}
+
+footer img {
+    width: 270px;
+}
+
+.nocomments {
+    display: none;
+}
+
+.portfolio .pager {
+    display: none;
+}
+
+.footer-widgets [data-motopress-sidebar-id="footer-sidebar-2"] {
+    float: right;
+}
+
+.posts-home div.desc {
+    min-height: 270px !important;
+}
+
