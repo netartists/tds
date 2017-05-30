@@ -6,6 +6,7 @@
 
 /* CSS styles */
 
+/* Body & Co. */
 body, p, small, input, a, span, ul, li {
     font-family: 'FF_DIN_Regular' !important;
     font-size: 16px;
@@ -17,6 +18,30 @@ h1, h2, h3, h4, h5, h6, h7 label {
     color: #565651 !important;
 }
 
+.hr {
+    margin: 50px 0 !important;
+}
+
+/* Lists */
+
+.w4pl ul {
+    list-style: none;
+}
+
+.w4pl ul li {
+    margin-bottom: 36px;
+}
+
+.w4pl ul li a {
+    font-family: 'FF_DIN_Medium' !important;
+}
+.w4pl ul li .post_title {
+    font-family: 'FF_DIN_Medium' !important;
+    text-transform: uppercase;
+}
+
+/* Header Teaser */
+
 .zoom-icon:after,
 .posts-grid.posts-home li .thumbnail .thumb-desc:after {
     background-color: #d4af37 !important;
@@ -26,9 +51,21 @@ h1, h2, h3, h4, h5, h6, h7 label {
     width: 33% !important;
 }
 
+@media only screen and (max-width: 558px) {
+    .posts-grid.posts-home li {
+        width: 100% !important;
+    }
+}
+
+.posts-home div.desc {
+    min-height: 270px !important;
+}
+
 .post_category {
     display: none !important;
 }
+
+/* Forms */
 
 .wpcf7-form input[type="text"],
 .wpcf7-form input[type="email"] {
@@ -47,9 +84,17 @@ h1, h2, h3, h4, h5, h6, h7 label {
     background-color: #fbfbfb !important;
 }
 
+/* Footer */
+
 footer img {
     width: 270px;
 }
+
+.footer-widgets [data-motopress-sidebar-id="footer-sidebar-2"] {
+    float: right;
+}
+
+/* Miscellaneous */
 
 .nocomments {
     display: none;
@@ -57,18 +102,6 @@ footer img {
 
 .portfolio .pager {
     display: none;
-}
-
-.footer-widgets [data-motopress-sidebar-id="footer-sidebar-2"] {
-    float: right;
-}
-
-.posts-home div.desc {
-    min-height: 270px !important;
-}
-
-.hr {
-    margin: 50px 0 !important;
 }
 
 .services .desc h5 a,

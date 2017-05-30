@@ -18,24 +18,53 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'dbwordpresstds');
+// get Domain Name
+$domain = $_SERVER['SERVER_NAME'];
+if (!$domain) {
+	$domain = $_SERVER['HOSTNAME'];
+}
 
-/** MySQL database username */
-define('DB_USER', 'root');
+// settings for stage server
+if ($domain == 'tsd-agentur.de' || $domain == 'tsd-agentur.com' || $domain == 'tsd-agentur.eu') {
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'DB2995685');
 
-/** MySQL database password */
-define('DB_PASSWORD', '');
+	/** MySQL database username */
+	define('DB_USER', 'U2995685');
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+	/** MySQL database password */
+	define('DB_PASSWORD', 'DB2995685TDSpw33');
 
-/** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+	/** MySQL hostname */
+	define('DB_HOST', 'rdbms.strato.de');
 
-/** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', '');
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8mb4');
+
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+} else {
+	// ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'dbwordpresstds');
+
+	/** MySQL database username */
+	define('DB_USER', 'root');
+
+	/** MySQL database password */
+	define('DB_PASSWORD', '');
+
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8mb4');
+
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+}
+
 
 /**#@+
  * Authentication Unique Keys and Salts.

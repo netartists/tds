@@ -3892,4 +3892,4 @@ blockquote p { line-height:22px; }
 	opacity:0;
 	filter:alpha(opacity=0);
 }
-";s:5:"files";a:4:{s:75:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\style.less";i:1495561433;s:94:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\bootstrap\less\variables.less";i:1495561513;s:91:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\bootstrap\less\mixins.less";i:1495281996;s:106:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\parallax-slider\less\parallax-slider.less";i:1495281996;}s:7:"updated";i:1495655660;}
+";s:5:"files";a:4:{s:75:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\style.less";i:1495561433;s:94:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\bootstrap\less\variables.less";i:1495561513;s:91:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\bootstrap\less\mixins.less";i:1495281996;s:106:"D:\__apachefriends\xampp_tsd\htdocs\wp-content\themes\theme53444\parallax-slider\less\parallax-slider.less";i:1495281996;}s:7:"updated";i:1496170363;}
