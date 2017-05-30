@@ -2,36 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3074fde5-fedf-4d77-a0bf-8379fe2e5141" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/README.md" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/admin/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/admin/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/admin/plugin-maintenance-mode.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/admin/plugin-maintenance-mode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/admin/plugin-pages.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/admin/plugin-pages.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/cherry-plugin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/cherry-plugin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/plugin-functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/plugin-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/plugin-script.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/plugin-script.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/plugin-under-construction-content.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/plugin-under-construction-content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/widgets/cherry-banner-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/cherry-plugin/includes/widgets/cherry-banner-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/theme53444/bootstrap/less/bootstrap.less.cache" afterPath="$PROJECT_DIR$/wp-content/themes/theme53444/bootstrap/less/bootstrap.less.cache" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/theme53444/loop/loop-single.php" afterPath="$PROJECT_DIR$/wp-content/themes/theme53444/loop/loop-single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/theme53444/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/theme53444/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/theme53444/style.less.cache" afterPath="$PROJECT_DIR$/wp-content/themes/theme53444/style.less.cache" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Black.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Black.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Bold.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Bold.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Bold_Italic.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Bold_Italic.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Light.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Light.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Medium.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Medium.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Regular.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Regular.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Regular_Italic.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Regular_Italic.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/FF_DIN_Regular_Italic_Expert.otf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/FF_DIN_Regular_Italic_Expert.otf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/MGS2.ttf" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/MGS2.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/fonts/MGS2MENU.TTF" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/fonts/MGS2MENU.TTF" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/images/signet_tsd_web.png" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/images/signet_tsd_web.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/override_colors.css" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/override_colors.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/override_fonts.css" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/override_fonts.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/tds_styles/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/tsd_styles/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbwordpresstds_1705023.sql" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dbwordpresstds_1705024.sql" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -390,12 +362,12 @@
       <workItem from="1495561416754" duration="6189000" />
       <workItem from="1495652116187" duration="2648000" />
       <workItem from="1496087008754" duration="1895000" />
-      <workItem from="1496168312259" duration="4268000" />
+      <workItem from="1496168312259" duration="4867000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29270000" />
+    <option name="totallyTimeSpent" value="29869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
