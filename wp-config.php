@@ -63,6 +63,9 @@ if ($domain == 'tsd-agentur.de' || $domain == 'tsd-agentur.com' || $domain == 't
 
 	/** The Database Collate type. Don't change this if in doubt. */
 	define('DB_COLLATE', '');
+
+	define('WP_SITEURL', 'http://tsd.mms-dresden.de');
+	define('WP_HOME', 'http://tsd.mms-dresden.de');
 }
 
 

@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6, h7 label {
 }
 
 .posts-grid.posts-home li {
-    width: 33% !important;
+    width: 25% !important;
 }
 
 @media only screen and (max-width: 558px) {
@@ -107,4 +107,13 @@ footer img {
 .services .desc h5 a,
 .services .desc p.excerpt {
     color: #fff !important;
+}
+
+select {
+  border: 2px solid rgb(219, 219, 219);
+  background-color: #fbfbfb;
+  font-family: 'FF_DIN_Regular';
+  font-size: 18px;
+  color: #565651;
+  padding: 10px 20px 10px 20px;
 }

@@ -1,3 +1,4 @@
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -9,8 +10,3 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
-
-AuthType Basic
-AuthName "TSD Webseite"
-AuthUserFile /mnt/web101/b1/45/58276245/htdocs/website/.htpasswd
-Require valid-user
