@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6, h7 label {
 
 .posts-grid.posts-home li {
     width: 25% !important;
+    min-height: 620px;
 }
 
 @media only screen and (max-width: 558px) {
@@ -107,6 +108,20 @@ footer img {
 .services .desc h5 a,
 .services .desc p.excerpt {
     color: #fff !important;
+}
+
+.service-box .service-box_body .title a {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    font-size: 21px;
+    line-height: 1.2em;
+    font-family: "FF_DIN_Medium", sans-serif !important;
+    color: #222;
+    text-transform: none;
 }
 
 select {
