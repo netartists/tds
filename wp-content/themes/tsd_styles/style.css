@@ -129,6 +129,10 @@ select {
   background-color: #fbfbfb;
   font-family: 'FF_DIN_Regular';
   font-size: 18px;
-  color: #565651;
-  padding: 10px 20px 10px 20px;
+  color: #898989;
+  width: 300px;
+}
+
+#blog-list ul {
+  margin-left: 5px;
 }
