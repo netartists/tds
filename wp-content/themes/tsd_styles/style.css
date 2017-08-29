@@ -136,3 +136,8 @@ select {
 #blog-list ul {
   margin-left: 5px;
 }
+
+.primaryCaption {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 24px;
+}
