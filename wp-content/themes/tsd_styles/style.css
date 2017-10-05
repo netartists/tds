@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, h7 label {
     color: #565651 !important;
 }
 
+.container p a {
+  color: #85b719 !important;
+}
+
 .hr {
     margin: 50px 0 !important;
 }
@@ -93,6 +97,42 @@ footer img {
 
 .footer-widgets [data-motopress-sidebar-id="footer-sidebar-2"] {
     float: right;
+}
+
+.footer-widgets {
+  float: right;
+  border-top: 0px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 50%;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .footer-widgets {
+    float: left;
+    clear: both;
+    border-top: 0px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  .footer-widgets [data-motopress-sidebar-id="footer-sidebar-1"],
+  .footer-widgets [data-motopress-type="static"] {
+      display: none;
+  }
+}
+
+div.copyright {
+  float: left;
+  width: 50%;
+}
+
+/* Slider */
+.parallax-slider #mainCaptionHolder .primaryCaption,
+.parallax-slider #mainCaptionHolder .secondaryCaption {
+  width: auto !important;
 }
 
 /* Miscellaneous */

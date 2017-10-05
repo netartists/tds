@@ -49,8 +49,8 @@ if (!function_exists('service_box_shortcode')) {
 					$output .= '</figure></div>';
 				}
 			}
-			
-			
+
+
 		}
 
 		$output .= '<div class="service-box_body">';
