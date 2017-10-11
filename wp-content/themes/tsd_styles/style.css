@@ -13,6 +13,10 @@ body, p, small, input, a, span, ul, li {
     color: #565651 !important;
 }
 
+body {
+    background-color: #f5f1e5 !important;
+}
+
 h1, h2, h3, h4, h5, h6, h7 label {
     font-family: 'FF_DIN_Medium' !important;
     color: #565651 !important;
@@ -45,6 +49,9 @@ h1, h2, h3, h4, h5, h6, h7 label {
 }
 
 /* Header Teaser */
+header {
+    background-color: #f5f1e5 !important;
+}
 
 .zoom-icon:after,
 .posts-grid.posts-home li .thumbnail .thumb-desc:after {
@@ -137,6 +144,10 @@ div.copyright {
 
 /* Miscellaneous */
 
+.content_box {
+    background-color: #f3e6c7 !important;
+}
+
 .nocomments {
     display: none;
 }
@@ -180,4 +191,20 @@ select {
 .primaryCaption {
   background-color: rgba(0, 0, 0, 0.4);
   padding: 24px;
+}
+
+.nav-wrap {
+    background-color: #f5f1e5 !important;
+}
+
+.social_label {
+    color: #565651 !important;
+}
+
+.network-icon {
+    color: #fff !important;
+}
+
+.icon-facebook, .icon-twitter {
+    color: #fff !important;
 }
