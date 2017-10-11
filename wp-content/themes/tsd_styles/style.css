@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, h7 label {
   color: #85b719 !important;
 }
 
+.container p a.btn-primary {
+  color: #fff !important;
+}
+
 .hr {
     margin: 50px 0 !important;
 }
@@ -56,12 +60,27 @@ header {
 .zoom-icon:after,
 .posts-grid.posts-home li .thumbnail .thumb-desc:after {
     background-color: #d4af37 !important;
+    display: none !important;
+
+}
+
+.zoom-icon:before {
+    display: none !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    .posts-grid.posts-home {
+        margin-top: -250px !important;
+    }
 }
 
 .posts-grid.posts-home li {
     width: 24% !important;
-    min-height: 620px;
     margin-left: 2px !important;
+}
+
+.posts-grid.posts-home li .desc {
+    display: none !important;
 }
 
 @media only screen and (max-width: 558px) {
@@ -76,6 +95,15 @@ header {
 
 .post_category {
     display: none !important;
+}
+
+.thumbnail:hover a img {
+    transform:scale(1.1) !important;
+    -webkit-transform:-webkit-scale(1.1) !important;
+}
+
+.title-section {
+    padding: 0 !important;
 }
 
 /* Forms */
@@ -212,4 +240,20 @@ select {
 
 .icon-facebook, .icon-twitter {
     color: #fff !important;
+}
+
+.featured-thumbnail.large img {
+    width: 500px !important;
+}
+
+.post_meta {
+    display: none !important
+}
+
+.share-buttons {
+    display: none !important
+}
+
+.vertical-divider:before {
+    background: none !important;
 }

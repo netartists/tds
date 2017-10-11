@@ -269,10 +269,10 @@ if (!function_exists('posts_grid_shortcode')) {
 							if($lightbox == 'yes') {
 								$output .= '<span class="zoom-icon"></span>';
 							}
-							
+
 							$output .= '</a></figure>';
-							
-							
+
+
 						} elseif ($mediaType != 'Video' && $mediaType != 'Audio') {
 
 							$thumbid = 0;
@@ -314,7 +314,7 @@ if (!function_exists('posts_grid_shortcode')) {
 											$output .= '<img src="'.$image.'" alt="'.get_the_title($post_id).'" />';
 										} else {
 											$output .= '<figure class="featured-thumbnail thumbnail">';
-											
+
 											if($lightbox == 'yes') {
 												$output .= '<a href="'.$image_attributes[0].'" title="'.get_the_title($post_id).'" rel="' .$prettyType.'">';
 											} else {
@@ -340,7 +340,7 @@ if (!function_exists('posts_grid_shortcode')) {
 								$output .= '<figure class="featured-thumbnail thumbnail">';
 
 								if($lightbox == 'yes') {
-									$output .= '<a href="'.$url.'" title="'.get_the_title($post_id).'" rel="' .$prettyType.'">';
+                                    $output .= '<a href="'.get_permalink($post_id).'" title="'.get_the_title($post_id).'">';
 								} else {
 									$output .= '<a href="'.get_permalink($post_id).'" title="'.get_the_title($post_id).'">';
 								}
@@ -371,7 +371,7 @@ if (!function_exists('posts_grid_shortcode')) {
 								$output .= get_the_title($post_id);
 							$output .= '</a></h5>';
 
-							if ( !empty($teampos) ) { 
+							if ( !empty($teampos) ) {
 								$output .= '<div class="pos">'.esc_html( $teampos ).'</div>';
 							}
 							if ($meta == 'yes') {
@@ -396,7 +396,7 @@ if (!function_exists('posts_grid_shortcode')) {
 											$output .= '<em>Posted in </em>';
 											foreach($categories as $category)
 												$out[] = '<a href="'.get_category_link($category->term_id ).'" title="'.$category->name.'">'.$category->cat_name.'</a> ';
-												$output .= join( ', ', $out );	
+												$output .= join( ', ', $out );
 										}
 									}
 									$output .= '</span>';
