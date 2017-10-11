@@ -59,8 +59,9 @@ header {
 }
 
 .posts-grid.posts-home li {
-    width: 25% !important;
+    width: 24% !important;
     min-height: 620px;
+    margin-left: 2px !important;
 }
 
 @media only screen and (max-width: 558px) {
@@ -181,7 +182,7 @@ select {
   font-family: 'FF_DIN_Regular';
   font-size: 18px;
   color: #898989;
-  width: 300px;
+  width: 280px;
 }
 
 #blog-list ul {
@@ -195,6 +196,10 @@ select {
 
 .nav-wrap {
     background-color: #f5f1e5 !important;
+}
+
+.select-menu {
+    background-color: #f3e6c7 !important;
 }
 
 .social_label {
