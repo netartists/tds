@@ -10,7 +10,7 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 
-AuthType Basic
-AuthName "TSD Webseite"
-AuthUserFile /mnt/web101/b1/45/58276245/htdocs/website/.htpasswd
-Require valid-user
+#AuthType Basic
+#AuthName "TSD Webseite"
+#AuthUserFile /mnt/web101/b1/45/58276245/htdocs/website/.htpasswd
+#Require valid-user
